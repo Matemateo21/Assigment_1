@@ -6,6 +6,7 @@ import ListItemSeparator from '../components/ListItemSeparator';
 
 const DetailScreen = ({route}) => {
   const item = route.params;
+  
   return (
     <View style={styles.listItemContainer}>
       <View style={styles.nameContainer}>
@@ -32,6 +33,25 @@ const DetailScreen = ({route}) => {
      
  </View>
 )}
+/*
+export default function UpdatePrice(item) {
+  const [price, setPrice] = useState(item.currentPrice.value);
+
+  useEffect(() => {
+    let maxNumber = 45;
+    let randomNumber = Math. floor((Math. random() * maxNumber) + 1)
+    const interval = setInterval(() => {
+      setPrice((prevPrice) => prevPrice * randomNumber);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [item.currentPrice.value]);
+
+  return (
+    DetailScreen
+  );
+}
+*/
 
 const styles = StyleSheet.create({
   listItemContainer:{
