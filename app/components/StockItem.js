@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, View, StyleSheet} from "react-native";
 import { TouchableHighlight } from 'react-native-gesture-handler';
  
-
+//stockitem
   const  StockItem = ({name, symbol, currentPrice, onPress}) => {
 
 

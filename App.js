@@ -7,14 +7,6 @@ import StockScreen from "./app/screens/StockScreen"
 import DetailScreen from "./app/screens/DetailScreen"
 
 
-/*function loadActivity(){
-   fetch("./app/assets/instruments.json")
-   .then((response) => response.json())
-   .then((data) => console.log(data))
-   .catch(console.log(err))
-}
-*/
-
 const Stack = createStackNavigator();
 const StockNavigator = ()=> (
   <Stack.Navigator>
@@ -26,7 +18,7 @@ const StockNavigator = ()=> (
 const serverURL = "192.168.0.39:3000/instruments"
 export default function App() {
   
-  /*
+  /* fetching 
   const [isLoading, setLoading] = useState(true)
   const [data, setData] = useState([])
   

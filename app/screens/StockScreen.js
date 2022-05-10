@@ -24,3 +24,4 @@ const StockScreen = ({navigation}) => {
 }
 
 export default StockScreen;
+//last update 

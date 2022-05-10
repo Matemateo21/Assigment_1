@@ -33,7 +33,7 @@ const DetailScreen = ({route}) => {
      
  </View>
 )}
-/*
+/* my struggles to creat randomFUnction
 export default function UpdatePrice(item) {
   const [price, setPrice] = useState(item.currentPrice.value);
 
